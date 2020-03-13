@@ -27,12 +27,13 @@ const Layout = ({ children }) => {
     <>
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
+            margin: `0 auto`,
+            display: `flex`,
         }}
       >
+
           <Header></Header>
-        <main>{children}</main>
+          <main>{children}</main>
       </div>
     </>
   )

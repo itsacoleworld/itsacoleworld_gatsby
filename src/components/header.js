@@ -5,13 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <nav>
     <div>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <h3>{siteTitle}</h3>
         <ul>
             <li>
                 <Link to="/day-zero/">Day Zero</Link>
@@ -38,7 +32,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `itsacoleworld.com`,
 }
 
 export default Header
