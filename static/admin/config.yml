@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  repo:
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "day-zero"
+    label: Day Zero
+    folder: src/pages/day-zero
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
