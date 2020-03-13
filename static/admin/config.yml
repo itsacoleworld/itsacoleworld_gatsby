@@ -1,19 +1,40 @@
 backend:
   name: git-gateway
-  repo:
   branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
 
 media_folder: static/img
 public_folder: /img
 
 collections:
   - name: "day-zero"
-    label: Day Zero
+    label: "Day Zero"
     folder: src/pages/day-zero
     create: true
     slug: "{{name}}"
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "day-zero-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+      label: "Pages"
+      files:
+        - file: "src/pages/books.md"
+          label: "Books"
+          name: "books"
+          fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "books-page"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
+        - file: "src/pages/about.md"
+          label: "About"
+          name: "about"
+          fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}

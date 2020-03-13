@@ -47,23 +47,29 @@ BlogRoll.propTypes = {
 
 export default () => (
   <StaticQuery
-    query={graphql`query BlogRollQuery {
+    query={graphql`
+      query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "day-zero-post" } } }
         ) {
           edges {
             node {
               excerpt(pruneLength: 400)
               id
+              fields {
+                slug
+              }
               frontmatter {
-                path
                 title
+                templateKey
                 date(formatString: "MMMM DD, YYYY")
               }
             }
           }
         }
-      }`}
+      }
+    `}
     render={(data, count) => <BlogRoll data={data} count={count} />}
   />
- )
+)

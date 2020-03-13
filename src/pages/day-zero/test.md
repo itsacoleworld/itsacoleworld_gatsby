@@ -1,6 +1,6 @@
 ---
-path: day-zero/test
-date: 2020-03-13T17:18:32.809Z
-title: My Poar
+templateKey: day-zero-post
+title: Test Post
+date: 2016-12-17T15:04:10.000Z
 ---
-dskhbfsdhkbfhdskbfs
+This is a test post
