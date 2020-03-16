@@ -1,4 +1,5 @@
 ---
+templateKey: about-page
 title: About
 ---
 My name is Alex Coleman. I'm 26 and I live in Hoboken, NJ. I'm currently building [Securable](https://securable.co/), an online secured loan lender. My goal is to build an affordable way for the underbanked to access credit. I previously led product and business development at LendEDU (YC W15).
