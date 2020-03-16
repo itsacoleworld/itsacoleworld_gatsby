@@ -1,4 +1,5 @@
 ---
+templateKey: books-page
 title: Books
 ---
 **Currently Reading**
