@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import Content, { HTMLContent } from '../components/Content'
@@ -40,7 +39,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Books - itsacoleworld" />
+      <SEO title="About - itsacoleworld" />
       <AboutPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
