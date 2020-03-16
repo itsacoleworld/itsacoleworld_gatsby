@@ -151,3 +151,13 @@ nav {
   width: 25%;
   padding-right: 3rem;
 }
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
+}
