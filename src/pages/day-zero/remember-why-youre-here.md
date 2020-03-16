@@ -1,7 +1,7 @@
 ---
 templateKey: day-zero-post
 title: Remember Why You're Here
-date: 2019-12-20T04:25:00.000Z
+date: 2019-12-19T04:25:00.000Z
 ---
 Your previous job didn’t provide an ideal work culture, but that’s not why you’re here. You didn’t love the business model or your role, but that’s not why you’re here.
 
