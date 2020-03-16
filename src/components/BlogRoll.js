@@ -19,7 +19,7 @@ class BlogRoll extends React.Component {
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
-                      to={post.frontmatter.path}
+                      to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
@@ -50,7 +50,7 @@ export default () => (
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { fields: [frontmatter___date], order: DESC }
           filter: { frontmatter: { templateKey: { eq: "day-zero-post" } } }
         ) {
           edges {
