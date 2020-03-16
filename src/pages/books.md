@@ -9,8 +9,6 @@ title: Books
 * Bucky Works - James Baldwin
 * High Output Management - Andy Grove (again)
 
-
-
 **Bookshelf**
 
 * Dune - Frank Herbert
@@ -49,3 +47,4 @@ title: Books
 * The Red Bandana - Tom Rinaldi
 * Hell's Angels - Hunter S. Thompson
 * The Hitchhiker's Guide To The Galaxy - Douglas Adams
+* Reasons And Persons - Derek Parfit
