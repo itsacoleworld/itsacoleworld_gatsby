@@ -1,6 +1,6 @@
 ---
 templateKey: day-zero-post
-title: Test
-date: 2020-03-16T16:04:13.663Z
+title: Test Post Two
+date: 2017-12-17T15:04:10.000Z
 ---
-dsfsdfds
+This is a test post
