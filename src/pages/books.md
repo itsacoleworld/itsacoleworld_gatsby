@@ -48,9 +48,3 @@ title: Books
 * The Red Bandana - Tom Rinaldi
 * Hell's Angels - Hunter S. Thompson
 * The Hitchhiker's Guide To The Galaxy - Douglas Adams
-
-
-
-
-
-
