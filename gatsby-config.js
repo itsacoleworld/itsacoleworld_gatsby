@@ -42,6 +42,12 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-161215845-1",
+      },
+    },
 
   ],
 }
