@@ -4,13 +4,14 @@ title: Books
 ---
 **Currently Reading**
 
-* How Will You Measure Your Life - Clayton Christensen
+* Seveneves - Neal Stephenson
 * More From Less - Andrew McAfee
 * Bucky Works - James Baldwin
 * High Output Management - Andy Grove (again)
 
 **Bookshelf**
 
+* How Will You Measure Your Life - Clayton Christensen
 * Dune - Frank Herbert
 * The Art Of Learning - Josh Waitzkin
 * The Brain That Changes Itself - Norman Doidge
@@ -32,7 +33,6 @@ title: Books
 * Hackers And Painters - Paul Graham
 * Quiet - Susan Cain
 * Extreme Ownership - Jocko Willink & Leif Babin
-* The Circle - Dave Eggers
 * Dollars And Sense - Dan Ariely
 * Predictably Irrational - Dan Ariely
 * Atlas Shrugged - Ayn Rand
