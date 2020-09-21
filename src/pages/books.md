@@ -2,17 +2,16 @@
 templateKey: books-page
 title: Books
 ---
-**Currently Reading**
-
-* Seveneves - Neal Stephenson
-* More From Less - Andrew McAfee
-* Bucky Works - James Baldwin
-* High Output Management - Andy Grove (again)
-
 **Bookshelf**
 
 * How Will You Measure Your Life - Clayton Christensen
+* Titan: The Life of John D. Rockefeller, Sr. - Ron Chernow
+* Atomic Habits - James Clear
 * Dune - Frank Herbert
+* Seveneves - Neal Stephenson
+* More From Less - Andrew McAfee
+* Bucky Works - James Baldwin
+* High Output Management - Andy Grove
 * The Art Of Learning - Josh Waitzkin
 * The Brain That Changes Itself - Norman Doidge
 * The Social Animal - David Brooks
@@ -36,6 +35,7 @@ title: Books
 * Dollars And Sense - Dan Ariely
 * Predictably Irrational - Dan Ariely
 * Atlas Shrugged - Ayn Rand
+* Three Body Problem - Liu Cixin
 * Meditations - Marcus Aurelius
 * What You Do Is Who You Are - Ben Horowitz
 * Heart Of Darkness - Joseph Conrad
